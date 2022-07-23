@@ -1,0 +1,235 @@
+body {
+    font-family: 'Special Elite', cursive;       
+    margin: 0;
+    padding: 0; 
+    background-image: url("../images/HT_Coffee01_PATTERNS01-13.png");
+    background-repeat: repeat;
+    background-attachment: fixed; 
+    color: white;      
+}
+div.container{
+    background-color: rgb(255, 244, 231);
+    background-size:inherit;
+    background-position: top;
+    background-repeat: no-repeat;    
+    margin: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0;
+    /* padding-bottom: 10%;     */
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0); 
+    text-align: center; 
+    background-color: rgb(60, 47, 47);
+}
+div.container header{
+    width: 100%;
+    padding-left: 0;
+    text-align: center; 
+    margin: 0; 
+    padding: 0;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 2%; 
+    border-radius: 25px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-image: url("../images/muffins.png");
+
+}
+div.container header h1 {
+    font-family: 'Festive', cursive;
+    font-size: 600%;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    text-align: center;   
+    color: rgb(255, 244, 231);
+    padding: 2%;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;   
+}
+div.container header p {
+    font-size: 120%;
+    margin: 1%;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+div.container main { 
+    width: auto;
+    margin: 5%; 
+    margin-top: 3%;
+    padding: 0;   
+    padding-bottom: 5%;
+    text-align: left;
+}
+
+div.container main form {
+    padding: 0;
+    margin: auto; 
+    padding-bottom: 5%;
+    height: 600px;
+}
+
+div.container main form h2 {
+    margin: 0;
+    margin-bottom: 3%;
+    font-size: 250%;
+    text-align: center;
+}
+div.container main form label {
+    font-size: 150%;
+    
+}
+
+div.container main form input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    border-color: none;
+    border-width: 0;
+    font-size: 150%;
+    font-family: 'Special Elite', cursive; 
+    text-indent: 1%;
+    color: rgb(199, 172, 144);  
+}
+
+div.container main div.cakes {    
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 5%;   
+    width: auto;
+    display: block;
+        
+}
+
+div.container main div.cakes div.sheetcakes {    
+    font-size: 150%;
+    margin-top: 0;
+    padding-top: 0;
+    width: 45%;
+    display: inline-block;
+    padding-right: 2%;
+    
+}
+div.container main div.cakes div.sheetcakes img{
+    display: block;
+    width: 45%;
+}
+
+div.container main div.cakes div.sheetcakes input {
+    margin-bottom: 5%;
+    
+}
+div.container main div.cakes div.sheetcakes label {
+    font-size: 120%;
+    font-weight: bold;
+    
+}
+div.container main div.cakes div.sheetcakes section label {
+    font-size: 100%;
+    font-weight: normal;
+    
+}
+div.container main div.cakes div.sheetcakes section input {
+    height: 40px;
+    font-size: 100%;
+    font-family: 'Special Elite', cursive; 
+    text-indent: 1%;
+    color: rgb(199, 172, 144);    
+}
+div.container main div.cakes div.sheetcakes section .extras {
+    height: 30px;
+}
+div.container main div.cakes div.sheetcakes section .extras input {
+    height: 20px;
+}
+
+div.container main div.cakes div.sheetcakes h3 {
+    font-size: 100%;
+    font-weight: normal;
+}
+div.container main div.cakes div.roundcakes {
+    font-size: 150%;
+    margin-top: 0;
+    padding-top: 0;
+    width: 45%;
+    display: inline-block;
+    
+    
+}
+div.container main div.cakes div.roundcakes img{
+    display: block;
+    width: 45%;
+    
+}
+div.container main div.cakes div.roundcakes input {
+    margin-bottom: 5%;
+    font-size: 80%;
+    
+}
+div.container main div.cakes div.roundcakes section .extras {
+    height: 30px;
+}
+div.container main div.cakes div.roundcakes section .extras input {
+    height: 20px;
+}
+div.container main div.cakes div.roundcakes label {
+    font-size: 120%;
+    font-weight: bold;
+}
+div.container main div.cakes div.roundcakes section input {
+    height: 40px;
+    font-size: 100%;
+    font-family: 'Special Elite', cursive; 
+    text-indent: 1%;
+    color: rgb(199, 172, 144);
+}
+div.container main div.cakes div.roundcakes section label {
+    font-size: 100%;
+    font-weight: normal;
+}
+div.container main div.cakes div.roundcakes h3 {
+    font-size: 100%;
+    font-weight: normal;
+}
+.submitbutton {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    height: 70px;
+    border-radius: 5px;
+    border-color: none;
+    border-width: 0;
+    font-size: 150%;
+    font-family: 'Special Elite', cursive; 
+    text-indent: 1%;
+    background-color: rgb(189, 155, 122);
+    color: white;
+}
+div.container footer {
+    border-radius: 25px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-image: url("../images/muffins.png");
+    padding: 3%;
+}
+
+div.container footer p {
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+section {
+    visibility: hidden;
+} 
+#invoice {
+    margin: auto;
+    font-size: 30px;    
+}
+#invoice h2{
+    color: white;
+    font-size: 40px;
+}

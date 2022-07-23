@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>New City Bakeries</title>
+        <meta name = "author" content="Michelle Alzola">  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type = "text/css" href="./styles/bakeriesstyles.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>New City Bakeries</h1>
+                <p>1301 16th Ave NW, Calgary, Alberta T2M 0L4</p>
+                <p>123-456-7890</p>
+            </header>
+            <main>
+                <form id="client_form">
+                 
+                    <h2>Order Form</h2>
+
+                    <div>
+                        <label>First Name: </label>
+                        <input type="text" id="first_name" name="firstname" autofocus required maxlength="50">
+                    </div>
+                    <div>
+                        <label>Last Name: </label>
+                        <input type="text" id="last_name" name="lastname" required maxlength="50">
+                    </div>
+                    <div>
+                        <label>Address: </label>
+                        <input type="text" id="client_address" name="address" required>
+                    </div>
+                    <div>
+                        <label>Postal Code: </label>
+                        <input type="text" id="postal_code" name="postalcode" required maxlength="6" placeholder="T5X5N2">
+                    </div>
+                    <div>
+                        <label>Phone Number: </label>
+                        <input type="tel" id="phone_number" name="phonenumber" required pattern="^\d{3}-\d{3}-\d{4}$" placeholder="123-456-7890">
+                    </div>
+                    <div>
+                        <label>E-mail: </label>
+                        <input type="tel" id="e_mail" name="email" required maxlength="50">
+                    </div> 
+                    <!-- <div>
+                        <label for="submit">E-mail: </label>
+                        <input type="submit" id="client_submit" name="submit">
+                    </div>  -->
+                </form>
+
+                <div class="cakes">
+                    <div class="sheetcakes">
+                        <img src="./images/HT_Coffee01-55.png" alt="Rectangular Cake" width="200">
+
+                        <!-- //<input type="checkbox" onclick="sheetAjax();" id="sheet_cakes" name="cakes[]" value=""> -->
+                        <label for="sheet_cakes">Square or Rectangular Cake</label>
+                        <button onclick="sheetAjax();">Click me</button>
+
+                        <div id="sheetDisplay"></div>
+
+                        
+
+                    </div>
+
+                    <div class="roundcakes">
+                        <img src="./images/round-71.png" alt="Rolled Cake" width="200">
+
+                        <input type="checkbox" onclick="round_cliked();" id="round_cakes" name="cakes[]" value="">
+                        <label for="round_cakes">Round Cake</label>
+
+                        <section id="round_section">
+
+                            <label>Radius: </label>
+                            <input type="number" name="radius" id="radius" min="15" max="30">
+
+                            <label>Number of Layers: </label>
+                            <input type="number" name="c_layers" id="c_layers" min="1" max="3">
+
+                            <h3>Extras</h3>
+                            <div class="extras">
+                                <input type="checkbox" name="round_extras[]" id="round_cheese">
+                                <label>Cream Cheese Icing $5</label>
+                            </div>
+                            <div class="extras">
+                                <input type="checkbox" name="round_extras[]" id="round_almonds">
+                                <label>Fruit and Almonds Topping $7</label>
+                            </div>
+                            <div class="extras">
+                                <input type="checkbox" name="round_extras[]" id="round_jam">
+                                <label>Fruit Jam Filling between Layers $4</label>
+                            </div>
+                        
+                        </section>
+                    </div>
+
+                    <button class = "submitbutton" onclick="submitOrder();" >Submit Order</button>
+
+                    <div id="invoice">
+
+                    </div> 
+
+                </div>
+                
+            </main>
+
+            <footer>
+                <p>©Michelle Alzola 2021</p>
+
+            </footer>
+            <script src="./scripts/bakeriesscripts.js"></script>
+
+        </div>
+    </body>
+</html>
