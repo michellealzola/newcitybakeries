@@ -97,8 +97,8 @@ div.container main form input {
 
 div.container main div.cakes {    
     margin-top: 0;
-    padding-top: 0;
-    padding-bottom: 5%;   
+    padding-top: 5%;
+    padding-bottom: 15%;   
     width: auto;
     display: block;
         
@@ -232,4 +232,30 @@ section {
 #invoice h2{
     color: white;
     font-size: 40px;
+}
+
+#sheetDisplay input{
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Special Elite', cursive;
+    width: 50px;
+}
+#roundDisplay input{
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Special Elite', cursive;
+    width: 50px;
+}
+
+#sheetbutton {
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Special Elite', cursive;
+    width: 75px;
+}
+#roundbutton {
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Special Elite', cursive;
+    width: 75px;
 }

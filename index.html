@@ -46,7 +46,7 @@
                     </div>
                     <div>
                         <label>E-mail: </label>
-                        <input type="tel" id="e_mail" name="email" required maxlength="50">
+                        <input type="email" id="e_mail" name="email" required maxlength="50">
                     </div> 
                     <!-- <div>
                         <label for="submit">E-mail: </label>
@@ -59,8 +59,8 @@
                         <img src="./images/HT_Coffee01-55.png" alt="Rectangular Cake" width="200">
 
                         <!-- //<input type="checkbox" onclick="sheetAjax();" id="sheet_cakes" name="cakes[]" value=""> -->
-                        <label for="sheet_cakes">Square or Rectangular Cake</label>
-                        <button onclick="sheetAjax();">Click me</button>
+                        <label>Square or Rectangular Cake</label>
+                        <button id="sheetbutton" onclick="sheetAjax();">Buy</button>
 
                         <div id="sheetDisplay"></div>
 
@@ -71,10 +71,13 @@
                     <div class="roundcakes">
                         <img src="./images/round-71.png" alt="Rolled Cake" width="200">
 
-                        <input type="checkbox" onclick="round_cliked();" id="round_cakes" name="cakes[]" value="">
-                        <label for="round_cakes">Round Cake</label>
+                        <!-- <input type="checkbox" onclick="round_cliked();" id="round_cakes" name="cakes[]" value=""> -->
+                        <label>Round Cake</label>
+                        <button id="roundbutton" onclick="roundAjax();">Buy</button>
 
-                        <section id="round_section">
+                        <div id="roundDisplay"></div>
+
+                        <!-- <section id="round_section">
 
                             <label>Radius: </label>
                             <input type="number" name="radius" id="radius" min="15" max="30">
@@ -96,7 +99,7 @@
                                 <label>Fruit Jam Filling between Layers $4</label>
                             </div>
                         
-                        </section>
+                        </section> -->
                     </div>
 
                     <button class = "submitbutton" onclick="submitOrder();" >Submit Order</button>
